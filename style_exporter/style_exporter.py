@@ -24,7 +24,7 @@
 from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction, QFileDialog
-from qgis.core import QgsProject, Qgis
+from qgis.core import QgsProject, Qgis, QgsVectorFileWriter
 
 # Initialize Qt resources from file resources.py
 from .resources import *
@@ -193,11 +193,12 @@ class StyleExporter:
             
     def load_field_table(self):
         
-        itemLabels = ['SLD', 'QML']  # , 'Typ pola']
+        itemLabels = ['SLD', 'QML', 'SHP']  # , 'Typ pola']
         self.dlg.listWidget_2.clear()
         
         for item in itemLabels:
             self.dlg.listWidget_2.addItem(item);
+            
 
 
 
@@ -246,6 +247,9 @@ class StyleExporter:
                         
                 if 'QML' in lst:
                     layer.saveNamedStyle(f"{path}.qml")
+                    
+                if 'SHP' in lst:
+                    writer = QgsVectorFileWriter.writeAsVectorFormat(layer, f"{path}.shp",'utf-8',driverName='ESRI Shapefile')
   
             self.iface.messageBar().pushMessage(
             "Udało się!", "Zapisano wybrane style w " + filename,
