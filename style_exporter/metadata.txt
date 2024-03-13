@@ -6,7 +6,7 @@
 name=Style Exporter
 qgisMinimumVersion=3.0
 description=Plugin export styles of selected layers to individual file with name same as layers name.
-version=0.3
+version=0.4
 author=Łukasz Świątek
 email=lukasz.swiatek1996@gmail.com
 
