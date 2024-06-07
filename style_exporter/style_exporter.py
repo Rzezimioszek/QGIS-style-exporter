@@ -161,7 +161,7 @@ class StyleExporter:
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        icon_path = ':/plugins/style_exporter/icon.png'
+        icon_path = ':/plugins/style_exporter/icon32.png'
         self.add_action(
             icon_path,
             text=self.tr(u'Export layer styles'),

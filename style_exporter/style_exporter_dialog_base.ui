@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>507</width>
+    <width>520</width>
     <height>352</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>507</width>
+    <width>520</width>
     <height>352</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>507</width>
+    <width>520</width>
     <height>352</height>
    </size>
   </property>
@@ -28,9 +28,9 @@
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>340</x>
      <y>10</y>
-     <width>171</width>
+     <width>172</width>
      <height>331</height>
     </rect>
    </property>
@@ -38,7 +38,7 @@
     <item>
      <widget class="QLabel" name="label_2">
       <property name="text">
-       <string>Dane do eksportu</string>
+       <string>Data to export (Dane do eksportu)</string>
       </property>
      </widget>
     </item>
@@ -52,7 +52,7 @@
     <item>
      <widget class="QLabel" name="label_4">
       <property name="text">
-       <string>Przedrostek</string>
+       <string>Prefix (Przedrostek)</string>
       </property>
      </widget>
     </item>
@@ -62,7 +62,7 @@
     <item>
      <widget class="QLabel" name="label_5">
       <property name="text">
-       <string>Przyrostek</string>
+       <string>Sufix (Przyrostek)</string>
       </property>
      </widget>
     </item>
@@ -92,7 +92,7 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>311</width>
+     <width>322</width>
      <height>331</height>
     </rect>
    </property>
@@ -100,7 +100,7 @@
     <item>
      <widget class="QLabel" name="label_3">
       <property name="text">
-       <string>Warstwy do eksportu</string>
+       <string>Layers to export from (Warstwy do eksportu)</string>
       </property>
      </widget>
     </item>
@@ -122,8 +122,8 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Zaznacz
-wszystkie</string>
+         <string>Select
+All</string>
         </property>
         <property name="checkable">
          <bool>false</bool>
@@ -142,8 +142,8 @@ wszystkie</string>
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Odznacz
-wszystkie</string>
+         <string>Deselect
+All</string>
         </property>
         <property name="checkable">
          <bool>false</bool>
@@ -162,8 +162,8 @@ wszystkie</string>
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Odwróć
-zaznaczenie</string>
+         <string>Invert
+selection</string>
         </property>
         <property name="checkable">
          <bool>false</bool>
@@ -182,8 +182,8 @@ zaznaczenie</string>
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Odśwież
-listę</string>
+         <string>Refresh
+list</string>
         </property>
         <property name="checkable">
          <bool>false</bool>
@@ -198,7 +198,7 @@ listę</string>
     <item>
      <widget class="QLabel" name="label">
       <property name="text">
-       <string>Miejsce zapisu</string>
+       <string>Saving path (Ścieżka zapisu)</string>
       </property>
      </widget>
     </item>

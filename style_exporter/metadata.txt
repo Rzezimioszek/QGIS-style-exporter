@@ -6,7 +6,7 @@
 name=Style Exporter
 qgisMinimumVersion=3.0
 description=Plugin export styles of selected layers to individual file with name same as layers name.
-version=0.5
+version=1.0
 author=Łukasz Świątek
 email=lukasz.swiatek1996@gmail.com
 
@@ -20,16 +20,20 @@ repository=https://github.com/Rzezimioszek/QGIS-style-exporter
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-changelog= 0.1 - first relase\n 0.2 - bugs fix
+changelog= 
+   0.1 - first relase
+   0.2 - bugs fix
+   0.5 - minor bug fix
+   1.0 - English version
 
 # Tags are comma separated with spaces allowed
 tags=python,layer style, style, export, polish
 
-homepage=https://github.com/Rzezimioszek/QGIS-style-exporter
+homepage=http://github.com/Rzezimioszek
 category=Plugins
 icon=icon.png
 # experimental flag
-experimental=True
+experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
