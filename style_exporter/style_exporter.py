@@ -185,7 +185,7 @@ class StyleExporter:
         
     def load_table(self):
         
-        itemLabels = [layer.name() for layer in self.iface.mapCanvas().layers()]
+        itemLabels = [layer.name() for layer in QgsProject.instance().mapLayers().values()]
         self.dlg.listWidget.clear()
         
         for item in itemLabels:
